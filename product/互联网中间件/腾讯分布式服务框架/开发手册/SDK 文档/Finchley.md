@@ -1,5 +1,18 @@
 基于 Spring Cloud Finchley 版本 SDK，支持 spring boot 2.0.x。
 
+## 1.28.0-Finchley-RELEASE（2021-02-05）
+
+### 新特性
+- 支持单元化功能。
+
+### Bug 修复
+- spring-cloud-tsf-consul-discovery：
+  - 修复网关的本地缓存没按命名空间隔离的bug。  
+ 
+### 版本建议
+
+支持向后兼容，建议全量升级。
+
 ## 1.26.1-Finchley-RELEASE（2020-12-31）
 ### 优化
 spring-cloud-tsf-sleuth 新增 CMQ 调用支持。
